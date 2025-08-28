@@ -12,7 +12,7 @@ function App() {
     useEffect(() => {
         // Load GA script
         const script = document.createElement("script");
-        script.src = "https://www.googletagmanager.com/gtag/js?id=G-6ZPERBXNPQ";
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-WEK9PRYHXK";
         script.async = true;
         document.head.appendChild(script);
 
@@ -20,7 +20,7 @@ function App() {
         window.dataLayer = window.dataLayer || [];
         function gtag(){window.dataLayer.push(arguments);}
         gtag("js", new Date());
-        gtag("config", "G-6ZPERBXNPQ");
+        gtag("config", "G-WEK9PRYHXK");
     }, []);
 
   return (
